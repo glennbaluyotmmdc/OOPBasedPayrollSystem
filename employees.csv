@@ -1,0 +1,11 @@
+﻿employeeID,firstName,surname,birthday,address,sssNumber,philHealthNumber,tinNumber,position,basicSalary,allowance
+1,Tony,Stark,2025-02-25,Stark Tower New York,1-111-222,2-222-333,0-222-222-333,HR,10000,500
+2,John,Doe,1985-03-15,123 Main St New York,1-222-333,2-333-444,0-333-444-555,Manager,12000,30
+3,Jane,Smith,1990-07-20,456 Elm St,1-333-444,2-444-555,0-444-555-666,HR,9500,25
+4,Michael,Johnson,1982-11-10,789 Oak St,1-444-555,2-555-666,0-555-666-777,Technician,10500,22
+5,Emily,Davis,1995-05-05,321 Pine St,1-555-666,2-666-777,0-666-777-888,HR,11000,28
+6,William,Clark,1978-09-30,654 Birch St,1-666-777,2-777-888,0-777-888-999,Analyst,11500,26
+7,Olivia,Lee,1988-04-18,987 Cedar St,1-777-888,2-888-999,0-888-999-000,HR,10200,24
+8,Liam,King,1993-08-03,432 Maple St,1-888-999,2-999-000,0-999-000-111,Developer,9800,21
+9,Charlotte,Williams,1992-12-12,135 Willow St,1-999-000,2-000-111,0-000-111-222,Assistant,9400,23
+10,Noah,Miller,1991-06-22,246 Redwood St,1-000-111,2-111-222,0-111-222-333,Support,9600,20
