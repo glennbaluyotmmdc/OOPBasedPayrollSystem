@@ -125,14 +125,14 @@ public class LoginGUI extends javax.swing.JFrame {
         login();
     }//GEN-LAST:event_jButtonLoginActionPerformed
 
-    
+    private String employeeCSV = "employees.csv";
     public void login()
     {
        String username = jTextFieldUsername.getText();
         String password = new String(jPasswordField.getPassword());
 
         // Create EmployeeDatabase instance
-        EmployeeDatabase db = new EmployeeDatabase("employees.csv", "credentials.csv");
+        EmployeeDatabase db = new EmployeeDatabase(employeeCSV, "credentials.csv");
         
         // Validate login
         int employeeID = db.validateLogin(username, password);
@@ -141,6 +141,8 @@ public class LoginGUI extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Invalid credentials, please try again.");
             return;
         }
+        
+        //Added a comment for demo purposes.
 
         // Get employee details based on the employeeID
         User employee = db.getEmployeeByID(employeeID);
